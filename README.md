@@ -78,7 +78,39 @@ The system applies transactional control using:
 - `rollback()` on failure
 
 Inventory is automatically reduced upon successful transaction commit to ensure data consistency.
+---
+## Project Status
 
+## Project Status
+
+The core user interface and transaction logic have been implemented, 
+including product input, discount calculation, and total payment processing.
+
+The system is currently in the feature completion phase, 
+with reporting, receipt printing, and system optimization in progress.
+---
+## Development Roadmap
+
+### Completed
+- [x] Desktop UI with Java Swing
+- [x] MySQL database integration (JDBC)
+- [x] Product input and management form
+- [x] Sales transaction processing
+- [x] Discount and total calculation
+- [x] Cash payment handling
+
+### In Progress
+- [ ] Receipt printing using JasperReports
+- [ ] Sales report by date range
+- [ ] Automatic stock deduction validation
+
+### Planned Improvements
+- [ ] Password hashing implementation
+- [ ] Input validation and error handling enhancement
+- [ ] Refactoring code structure (MVC separation improvement)
+- [ ] Export report to Excel
+- [ ] Basic unit testing implementation
+- [ ] technical documentation (eBook)
 ---
 
 ## 6. Security Considerations
@@ -101,6 +133,5 @@ Inventory is automatically reduced upon successful transaction commit to ensure 
 
 ## 8. Author
 
-Agung  
-Software Engineering Portfolio Project  
+Agung    
 2026
